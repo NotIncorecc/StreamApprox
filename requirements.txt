@@ -1,0 +1,11 @@
+jupyter
+notebook
+ipykernel
+requests
+websocket-client
+numpy
+torch
+torchvision
+tqdm
+pandas
+matplotlib
