@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 def main():
     # 1. Setup paths
-    features_path = "features/test_features.pt"
-    output_dir = "features/analysis_plots"
+    features_path = "data/test_features.pt" if os.path.exists("data/test_features.pt") else "features/test_features.pt"
+    output_dir = "data/analysis_plots"
     os.makedirs(output_dir, exist_ok=True)
     
     print("=" * 60)
