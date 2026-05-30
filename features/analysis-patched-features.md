@@ -48,11 +48,11 @@ Pairwise off-diagonal cosine similarities check for representation collapse:
 Here are the updated visual distributions of the patched feature files:
 
 
-![Embedding L2 Norm Distributions](analysis_plots\l2_norms.png)
+![Embedding L2 Norm Distributions](analysis_plots/l2_norms.png)
 <!-- slide -->
-![Pairwise Self-Similarity Heatmaps](analysis_plots\self_similarity_heatmaps.png)
+![Pairwise Self-Similarity Heatmaps](analysis_plots/self_similarity_heatmaps.png)
 <!-- slide -->
-![Feature Value Distributions](analysis_plots\feature_value_distributions.png)
+![Feature Value Distributions](analysis_plots/feature_value_distributions.png)
 <!-- slide -->
 ![2D PCA Projections of Embedding Spaces](analysis_plots\pca_projections.png)
 
