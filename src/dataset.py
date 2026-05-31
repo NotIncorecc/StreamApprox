@@ -14,9 +14,9 @@ class MultimodalEmbeddingDataset(Dataset):
             raise ValueError("Either file_path or data_dict must be provided.")
             
         # Keys expected: 'z_img', 'z_aud', 'v_teacher'
-        self.z_img = self.data['z_img']
-        self.z_aud = self.data['z_aud']
-        self.v_teacher = self.data['v_teacher']
+        self.z_img = self.data['z_img'].to(torch.float32)
+        self.z_aud = self.data['z_aud'].to(torch.float32)
+        self.v_teacher = self.data['v_teacher'].to(torch.float32)
         
         # Verify sizes
         assert len(self.z_img) == len(self.z_aud) == len(self.v_teacher), \

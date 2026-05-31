@@ -8,4 +8,5 @@ torch
 torchvision
 tqdm
 pandas
+kaggle
 matplotlib
