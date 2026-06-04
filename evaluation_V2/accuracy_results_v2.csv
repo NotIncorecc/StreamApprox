@@ -1,0 +1,4 @@
+Model,Cosine_Sim,MSE,R@1,R@5,R@10,MedR,Latency_ms
+CLIP Zero-Shot (random proj),0.005725,nan,0.00,0.30,0.70,513,0.0000
+MLP InfoNCE V2 (tuned),0.529765,0.403813,53.90,83.10,90.50,1,1.3395
+Transformer V2,0.601557,0.055647,36.70,72.20,83.90,2,4.3075
